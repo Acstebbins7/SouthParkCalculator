@@ -20,19 +20,21 @@ body {
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
-#container #h1 {
+/* #container .kenny {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: 300px;
-}
+} */
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
 
 #calculator {
   width: 320px;
   height: 550px;
-  background-color: rgb(8, 118, 182);
+  background-image: url("./images/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: center;
   margin: 50px auto;
   top: 180px;
   position: relative;
@@ -45,7 +47,7 @@ body {
 
 #result {
   height: 120px;
-  background-image: url("./images/Southpark3.jpg");
+  background-blend-mode: color-burn;
   border-top: 25px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -93,6 +95,8 @@ body {
   border-width: 0;
   font-weight: bolder;
   font-size: 15px;
+  border: 3px solid black;
+  color: blue;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
