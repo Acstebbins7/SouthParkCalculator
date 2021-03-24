@@ -2,6 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: rgb(6, 153, 18);
   padding: 60px;
+  resize: both;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -11,9 +12,10 @@ body {
   height: 800px;
   background-color: brown;
   margin: 20px auto;
-  border-radius: 20px;
+  border-radius: 25px;
   border-top: 100px;
   background-repeat: no-repeat;
+  border: 10px solid black;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -29,12 +31,13 @@ body {
 
 #calculator {
   width: 320px;
-  height: 520px;
-  background-color: orangered;
+  height: 550px;
+  background-color: rgb(8, 118, 182);
   margin: 50px auto;
   top: 180px;
   position: relative;
   border-radius: 25px;
+  border: 5px solid black;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -42,8 +45,11 @@ body {
 
 #result {
   height: 120px;
-  background-color: rebeccapurple;
+  background-image: url("./images/Southpark3.jpg");
   border-top: 25px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom: 5px solid black;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -54,7 +60,7 @@ body {
   margin: 0 20px;
   padding-top: 20px;
   font-size: 15px;
-  color: black;
+  color: white;
   border-radius: 25px;
 }
 
@@ -65,6 +71,7 @@ body {
   height: 60px;
   margin: 10px 20px;
   font-size: 30px;
+  color: white;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -84,17 +91,8 @@ body {
   float: left;
   border-radius: 70%;
   border-width: 0;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 15px;
-}
-
-/* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
-
-.number,
-.empty {
-  background-color: black;
-  color: white;
-  border-radius: 25px;
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
@@ -102,6 +100,18 @@ body {
 .number,
 .operator {
   cursor: pointer;
+}
+
+.number {
+  background-image: url("./images/Kyle.jpg");
+}
+
+.operator {
+  background-image: url("./images/Cartman.jpg");
+}
+
+.empty {
+  background-image: url("./images/Kenny.jpg");
 }
 
 /* $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */
